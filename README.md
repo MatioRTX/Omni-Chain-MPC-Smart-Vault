@@ -35,3 +35,13 @@ omni-shield-vaultx/
 │   └── bridge_listener.go
 └── tests/                      # 4. End-to-End System Integration Framework
     └── omni-vault.test.ts
+
+
+
+## Execution Suite Trigger (TypeScript)
+```bash
+# Install the environment variables and dependencies
+npm install
+
+# Run the unified high-security framework simulation
+npx ts-node --transpile-only tests/omni-vault.test.ts
