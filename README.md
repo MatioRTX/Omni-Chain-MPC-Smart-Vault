@@ -36,24 +36,24 @@ omni-shield-vaultx/
 └── tests/                      # 4. End-to-End System Integration Framework
     └── omni-vault.test.ts
 
----
+-------------------------------------------------------
 
-⚡ Quick Start & Deployment Flow
+Quick Start & Deployment Flow
 1. Smart Contracts Compile (Solidity)
-Bash
 cd contracts/
 # Compatible with Forge, Hardhat or Remix Compiler version 0.8.26
+
 2. Run High-Performance Relayer (Go)
-Bash
 cd relayer/
 go run main.go bridge_listener.go
+
 3. Execution Suite Trigger (TypeScript)
 To execute the cryptographic MPC simulations and intent parsing with beautiful visual outputs, run:
 
-Bash
-# Install required dependencies
+
+Install required dependencies
 npm install
 
-# Trigger the unified high-security framework validation
+Trigger the unified high-security framework validation
 npx ts-node --transpile-only tests/omni-vault.test.ts
 Developed as a premier security concept infrastructure for institutional multi-chain custody networks.
